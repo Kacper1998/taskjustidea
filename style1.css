@@ -1,0 +1,109 @@
+.text1 {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.circular-menu {
+  width: 850px;
+  height: 850px;
+  margin: 0 auto;
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 900px;
+  height: 900px;
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  transform: scale(0);
+padding-left: 1px;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.open.circle {
+  opacity: 1;
+
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  transform: scale(1);
+}
+
+.circle a {
+  text-decoration: none;
+  display: block;
+  border: 2px solid black;
+  height: 90px;
+  width: 90px;
+  line-height: 40px;
+  margin-left: -20px;
+  border-radius: 50%;
+  margin-top: -20px;
+  position: absolute;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.circle a:hover {
+  color: #eef;
+}
+
+.menu-button {
+  position: absolute;
+  top: calc(50% - 210px);
+  left: calc(50% - 235px);
+  text-decoration: none;
+  text-align: center;
+  color: #444;
+  border-radius: 50%;
+  display: block;
+  height: 500px;
+  width: 500px;
+  line-height: 40px;
+  padding: 10px;
+  background-image: url("Grupa\ 193.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width:840px) {
+  .menu-button {
+    height: 263px;
+    width: 250px;
+    top: calc(50% - 126px);
+    left: calc(50% - 315px);
+  }
+  .circle {
+    width: 605px;
+    height: 605px;
+    margin-left: -32%;
+  }
+  .circle a {
+    width: 60px;
+    height: 60px;
+  }
+} 
+
+
+/* Author stuff */
+h1.author {
+  text-align:center;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+h1.author a {
+  color: #348;
+  text-decoration:none;
+}
+
+h1.author a:hover {
+  color: #ddd;
+} 

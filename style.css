@@ -1,0 +1,181 @@
+body {
+  height: 100vh;
+}
+
+body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-items {
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  padding: 0;
+  border-radius: 50%;
+  list-style: none;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 39rem;
+  height: 39rem;
+  background-image: url("Grupa 193.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav-items > * {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5rem;
+  height: 5rem;
+  margin: -2.5rem;
+}
+
+.nav-items > *:nth-of-type(1) {
+  -webkit-transform: rotate(0deg) translate(20rem) rotate(0deg);
+          transform: rotate(0deg) translate(20rem) rotate(0deg);
+}
+
+.nav-items > *:nth-of-type(2) {
+  -webkit-transform: rotate(30deg) translate(20rem) rotate(-30deg);
+          transform: rotate(30deg) translate(20rem) rotate(-30deg);
+}
+
+.nav-items > *:nth-of-type(3) {
+  -webkit-transform: rotate(60deg) translate(20rem) rotate(-60deg);
+          transform: rotate(60deg) translate(20rem) rotate(-60deg);
+}
+
+.nav-items > *:nth-of-type(4) {
+  -webkit-transform: rotate(90deg) translate(20rem) rotate(-90deg);
+          transform: rotate(90deg) translate(20rem) rotate(-90deg);
+}
+
+.nav-items > *:nth-of-type(5) {
+  -webkit-transform: rotate(120deg) translate(20rem) rotate(-120deg);
+          transform: rotate(120deg) translate(20rem) rotate(-120deg);
+}
+
+.nav-items > *:nth-of-type(6) {
+  -webkit-transform: rotate(150deg) translate(20rem) rotate(-150deg);
+          transform: rotate(150deg) translate(20rem) rotate(-150deg);
+}
+
+.nav-items > *:nth-of-type(7) {
+  -webkit-transform: rotate(180deg) translate(20rem) rotate(-180deg);
+          transform: rotate(180deg) translate(20rem) rotate(-180deg);
+}
+
+.nav-items > *:nth-of-type(8) {
+  -webkit-transform: rotate(210deg) translate(20rem) rotate(-210deg);
+          transform: rotate(210deg) translate(20rem) rotate(-210deg);
+}
+
+.nav-items > *:nth-of-type(9) {
+  -webkit-transform: rotate(240deg) translate(20rem) rotate(-240deg);
+          transform: rotate(240deg) translate(20rem) rotate(-240deg);
+}
+
+.nav-items > *:nth-of-type(10) {
+  -webkit-transform: rotate(270deg) translate(20rem) rotate(-270deg);
+          transform: rotate(270deg) translate(20rem) rotate(-270deg);
+}
+
+.nav-items > *:nth-of-type(11) {
+  -webkit-transform: rotate(300deg) translate(20rem) rotate(-300deg);
+          transform: rotate(300deg) translate(20rem) rotate(-300deg);
+}
+
+.nav-items > *:nth-of-type(12) {
+  -webkit-transform: rotate(330deg) translate(20rem) rotate(-330deg);
+          transform: rotate(330deg) translate(20rem) rotate(-330deg);
+}
+
+.nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  font-size: 3rem;
+}
+
+.nav-link {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 50%;
+  background: transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link i {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  border-color: black;
+  -webkit-box-shadow: inset 0em 0em 2rem rgba(0, 0, 0, 0.15);
+          box-shadow: inset 0em 0em 2rem rgba(0, 0, 0, 0.15);
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
+}
+
+.nav-link:hover i {
+  opacity: 0.9;
+}
+
+.text1 {
+  margin-left: 15%;
+  text-align: center;
+  margin-top: -2%;
+  font-size: 16px;
+  color: #2f2f2f;
+  font-family: 'Hint', sans-serif;
+}
+
+.text2 {
+  margin-left: 15%;
+  text-align: center;
+  margin-top: -2%;
+  font-size: 16px;
+  color: #2f2f2f;
+  font-family: 'Hint', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
